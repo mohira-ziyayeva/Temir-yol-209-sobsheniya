@@ -1,0 +1,11 @@
+CREATE TABLE `mohira` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `kod_sabsheniya` varchar(45) DEFAULT NULL,
+  `xabarlarni_uzatish_stantsiyasi` varchar(45) DEFAULT NULL,
+  `nomer_poezda` varchar(45) DEFAULT NULL,
+  `eski_index` varchar(255) DEFAULT NULL,
+  `ozgartirish_sababi` varchar(255) DEFAULT NULL,
+  `sana_vaqt_indeks_ozgarishi` datetime DEFAULT NULL,
+  `yangi_indeks` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
